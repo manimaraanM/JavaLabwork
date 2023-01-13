@@ -44,6 +44,7 @@ public class Week1VariablesandOperations {
 		
 		//birth certificate incorrect, change intial
 		middleIntial='M';
+		System.out.println("Customer New Middle Intial: " +middleIntial);
 		
 		//season change update weather
 		outsideTemperatureHot = !outsideTemperatureHot;
