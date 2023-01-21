@@ -17,11 +17,11 @@ public class Week2Part3 {
 		//for loop to print every other number from 0 to 100\
 		System.out.println("");
 		System.out.println("Print from 0 to 100");
-		for (int k=0;k<=10;k+=2) {
+		for (int k=0;k<=100;k+=2) {
 			System.out.print(k +",");
 		}
 		//for loop that iterats from 0 to 100 and prints even if nbr is ever and odd if nbr is odd
-		for(int x=0;x<=10;x++) {
+		for(int x=0;x<=100;x++) {
 			if(x%2==0) {
 				System.out.println(x +"even");
 			}
@@ -30,7 +30,7 @@ public class Week2Part3 {
 			}
 		}
 		
-		int y=10;
+		int y=100;
 		//System.out.println(x +"odd");
 		//while loop that starts at 100 and iterates backwars by 1 untill it reaches 0
 		//divide each number by 3 and print remainder to console
